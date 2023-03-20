@@ -6,6 +6,11 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -73,7 +78,6 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    /* padding-top: 38px; */
     padding: 12px 0;
 }
 
@@ -200,7 +204,7 @@ a {
 
 .guide {
     margin-top: 40px;
-    padding: 43px 0 79px;
+    padding: 93px 0 79px;
 }
 
 .guide .sub-title {
@@ -394,6 +398,7 @@ a {
 
 .stats .row {
     display: flex;
+    margin-top: 14px;
 }
 .stats .info {
     padding: 79px 0 0 165px;
